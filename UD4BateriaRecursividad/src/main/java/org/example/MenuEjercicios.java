@@ -44,7 +44,7 @@ public class MenuEjercicios {
     public static void selectOption(int option) {
         switch (option) {
             case 1:
-                int number = askNumber();
+                number = askNumber();
                 System.out.println(ejercicio1(number));
                 break;
             case 2:
@@ -183,6 +183,4 @@ public class MenuEjercicios {
     public static void main(String[] args) {
         bateria();
     }
-
-
 }
